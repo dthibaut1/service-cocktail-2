@@ -1,0 +1,19 @@
+img {
+  max-height: 128px;
+}
+
+table {
+  border         : solid 0.2rem;
+  border-collapse: collapse;
+  text-align     : center;
+}
+
+tr {
+  border: solid 0.1rem;
+}
+
+td,
+th {
+  border : dashed 0.1rem;
+  padding: 0.5rem;
+}

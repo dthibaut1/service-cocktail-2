@@ -1,0 +1,23 @@
+<h1>
+  Nos Cocktails
+</h1>
+
+
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Prix</th>
+        <th>Image</th>
+      </tr>
+    </thead>
+      <tbody>
+      <tr *ngFor="let cocktail of cocktails">
+        <th>{{ cocktail.name }}</th>
+        <th>{{ cocktail.price }}€</th>
+        <th><img [src]="cocktail.image" alt="Cocktail {{ cocktail.name }}" /></th>
+      </tr>
+    </tbody>
+  </table>
+</div>
