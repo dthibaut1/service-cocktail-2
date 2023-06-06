@@ -17,16 +17,16 @@ export class Cocktail {
     return this._image;
   }
 
-  set name(name) {
-    this._name = name;
-  }
+  // set name(name) {
+  //   this._name = name;
+  // }
 
-  set price(price) {
-    this._price = price;
-  }
+  // set price(price) {
+  //   this._price = price;
+  // }
 
-  set image(image) {
-    this._image = image;
-  }
+  // set image(image) {
+  //   this._image = image;
+  // }
 }
 
