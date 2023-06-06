@@ -16,5 +16,17 @@ export class Cocktail {
   get image() {
     return this._image;
   }
+
+  set name(name) {
+    this._name = name;
+  }
+
+  set price(price) {
+    this._price = price;
+  }
+
+  set image(image) {
+    this._image = image;
+  }
 }
 

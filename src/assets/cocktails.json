@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Daiquiri",
+        "price": 10,
+        "image": "assets/images/daiquiri.jpg"
+    },
+    {
+        "name": "Marguarita",
+        "price": 13,
+        "image": "assets/images/margarita.jpg"
+    },
+    {
+        "name": "Vodka Martini au shaker, pas à la cuillère",
+        "price": 8,
+        "image": "assets/images/vodka-martini.jpg"
+    }
+]
